@@ -1,0 +1,5 @@
+test:
+  age: 10
+  name: John
+  innerProp:
+    innerName: test
