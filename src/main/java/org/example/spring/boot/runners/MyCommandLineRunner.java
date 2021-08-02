@@ -1,4 +1,4 @@
-package org.example.spring.boot;
+package org.example.spring.boot.runners;
 
 import java.util.Arrays;
 

@@ -1,12 +1,12 @@
-package org.example.spring.boot;
+package org.example.spring.boot.configprops;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 
 @Component
-@ConfigurationProperties("test")
-public class MyPropertiesBean {
+@ConfigurationProperties("test-config")
+public class TestConfig {
 	
 	private int age;
 	private String name;
@@ -41,4 +41,5 @@ public class MyPropertiesBean {
 			this.innerName = innerName;
 		}
 	}
+	
 }
